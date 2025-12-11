@@ -12,9 +12,10 @@
   --bg-body: #f5f5f7;
   --bg-card: #ffffff;
 
-  --bg-soft: #eef1f4;        /* 연회색 + 미세한 블루 */
-  --primary-soft: #eef1f4;
-  --primary: #e2e7ec;        /* hover / active용 */
+--bg-soft: #eef2f6;
+--primary-soft: #eef2f6;
+--primary: #d6e0ea;
+
 
   --border: #e4dfe8;
   --text-main: #111111;
@@ -473,4 +474,5 @@ a:hover {
   font-size: 0.75rem;
   background: var(--primary-soft);
 }
+
 
