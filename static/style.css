@@ -435,3 +435,30 @@ a:hover {
 #scrollTopBtn:hover {
   transform: translateY(-3px);
 }
+
+
+/* ============================
+   홈 필터
+   ============================ */
+.home-filter{
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 10px 0 6px;
+}
+
+.filter-btn{
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 999px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.filter-btn.is-active{
+  background: #f2d7e5;
+  border-color: #f2d7e5;
+}
+
+
