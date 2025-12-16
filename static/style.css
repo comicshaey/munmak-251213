@@ -560,3 +560,22 @@ a:hover {
     top: auto;
   }
 }
+
+
+/* ============================
+   업무 가이드 앵커 이동 보정 + 현재 항목 표시
+   ============================ */
+
+/* 헤더가 sticky라서 앵커 점프 시 제목이 가려지는 문제 방지 */
+.docs-section{
+  scroll-margin-top: 90px;
+}
+
+/* 사이드바에서 현재 선택 항목 표시용 */
+.docs-nav a.is-current{
+  background: var(--primary);
+  border-color: var(--primary);
+  text-decoration: none;
+  font-weight: 700;
+}
+
